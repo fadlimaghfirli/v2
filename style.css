@@ -1,0 +1,469 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #252525;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+/* MY CSS */
+header {
+  background-color: #333;
+  background-image: url(img/bg-header.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  width: 100%;
+  font-size: 0.9em;
+  height: 575px;
+  /* padding: 8% 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+  /*Untuk melebihkan sedikit dibagian atas about*/
+}
+
+/* header .image img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+} */
+
+header h3 {
+  margin-top: 140px;
+  margin-bottom: 8px;
+}
+
+header h1 {
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+  font-size: 3.5em;
+  text-align: center;
+  word-spacing: 15px;
+  /* font-weight: bolder; */
+}
+
+header p {
+  margin-bottom: 40px;
+  word-spacing: 5px;
+}
+
+header .social {
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+header .social a {
+  color: #fff;
+  font-size: 1.5em;
+  /* margin-right: 20px; */
+}
+
+header .social a:hover {
+  color: #3EB991;
+}
+
+header .button {
+  /* margin-top: 20px; */
+  padding-bottom: 10px;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+header .button:hover {
+  color: #3EB991;
+}
+
+/* header button {
+  font-size: 1.2em;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+
+header button:hover {
+  background-color: #3EB991;
+  border: 1px solid #3EB991;
+  transition: 0.5s;
+} */
+
+/* AKHIR HEADER */
+
+/* ABOUT */
+.about {
+  padding: 160px 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .content {
+  flex: 3;
+  /* margin-left: 20px; */
+}
+
+.about .content h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about .content p {
+  font-size: 0.9em;
+  margin-bottom: 50px;
+  color: #777;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+
+.about .content p i:hover {
+  color: #3EB991;
+}
+
+.about .image {
+  flex: 4;
+  /* margin-left: 100px; */
+  text-align: center;
+}
+
+.about .image img {
+  margin-bottom: 15px;
+  width: 30%;
+  border-radius: 100%;
+  border: 10px solid #eee;
+}
+
+.about .image img:hover {
+  border: 10px solid #3EB991;
+  transition: 1s;
+}
+
+.about .image p {
+  margin-top: 5px;
+  color: #3EB991;
+  font-size: 0.9em;
+}
+
+/* .about .content button {
+  font-size: 1.05em;
+  padding: 12px 20px 12px 20px;
+  border: 2px solid#3EB991;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #3EB991;
+}
+
+.about .content button:hover {
+  background-color: #3EB991;
+  color: #fff;
+  border: 2px solid #eee;
+  transition: 0.5s;
+} */
+/* AKHIR ABOUT */
+
+/* SERVICES */
+.services {
+  /* padding: 80px 100px; */
+  padding: 0 100px 80px 100px;
+  margin-bottom: 50px;
+}
+
+.services .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.services h2 {
+  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+  /* border-bottom: 2px solid #3EB991; */
+}
+
+.services .card {
+  background-color: #fff;
+  padding: 30px 15px;
+}
+
+.services .card h3 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  color: #3EB991;
+}
+
+.services .card p {
+  color: #777;
+  font-size: 0.9em;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+
+/* AKHIR SERVICES */
+
+/* PROJECTS */
+.project {
+  padding: 30px 150px 20px 150px;
+  margin-top: -5px;
+  margin-bottom: -2px;
+  background-color: #333;
+  background-image: url(img/bg-project.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.project h2 {
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff;
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project .card {
+  margin: 15px;
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  border-radius: 5%;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project .card .header {
+  height: 130px;
+  background-color: #c4c4c4;
+}
+
+.project .header.satu {
+  background-image: url(img/project/project1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.project .header.dua {
+  background-image: url(img/project/project2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.project .header.tiga {
+  background-image: url(img/project/project3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.project .header.empat {
+  background-image: url(img/project/project4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.project .header.lima {
+  background-image: url(img/project/project5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.project .card .judul {
+  margin-top: 6px;
+}
+
+.project .card h4 {
+  margin-bottom: 5px;
+}
+
+.project .card .judul button {
+  padding: 5px 15px 5px 15px;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.8em;
+  color: white;
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+.project .card .judul button:hover {
+  background-color: rgb(76, 121, 255);
+}
+
+.project .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* CONTACT */
+.contact {
+  padding: 70px 0;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input[type='text'],
+select,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 12px;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type='submit'] {
+  font-size: 1.05em;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid#3EB991;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #3EB991;
+}
+
+input[type='submit']:hover {
+  background-color: #3EB991;
+  color: #fff;
+  border: 2px solid #eee;
+  transition: 0.5s;
+}
+
+/* AKHIR CONTACT */
+
+/* FOOTER */
+footer {
+  font-size: 0.9em;
+  word-spacing: 4px;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #162221;
+  color: #fff;
+  text-align: center;
+}
+
+footer p i:hover {
+  color: #3EB991;
+}
+
+footer a {
+  color: #3EB991;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* AKHIR FOOTER */
+
+/* RESPONSIVE BREAKPOINT */
+/* Ukuran Mobile */
+@media (max-width: 576px) {
+
+  /* HEADER */
+  header {
+    font-size: 0.8em;
+    height: 750px;
+  }
+
+  header h1 {
+    font-size: 2.6em;
+  }
+
+  /* AKHIR HEADER */
+
+  /* ABOUT */
+  .about {
+    flex-direction: column-reverse;
+    padding: 80px 30px;
+    text-align: center;
+  }
+
+  .about .image {
+    margin-bottom: 50px;
+  }
+
+  .about .image img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  /* AKHIR ABOUT */
+
+  /* SERVICES */
+  .services {
+    padding: 30px;
+  }
+
+  .services .content {
+    grid-template-columns: 1fr;
+  }
+
+  /* AKHIR SERVICES */
+
+  /* PROJECTS */
+  .project {
+    padding: 40px 0;
+    background-position: center;
+  }
+
+  /* AKHIR PROJECT */
+
+  /* CONTACT */
+  .contact {
+    padding: 100px 0;
+    font-size: 0.8em;
+    margin: auto;
+    width: 100%;
+  }
+
+  .contact .content {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* AKHIR CONTACT */
+
+  /* FOOTER */
+  footer {
+    font-size: 0.8em;
+    word-spacing: normal;
+  }
+
+  /* AKHIR FOOTER */
+}
